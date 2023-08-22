@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 
 import '../../../config/menu/menu_items.dart';
 
@@ -58,7 +59,8 @@ class _CustomListTile extends StatelessWidget {
         //     builder: (context) => const ButtonsScreen(),
         //   ),
         // );
-        Navigator.pushNamed(context, menuItem.link);
+        // Navigator.pushNamed(context, menuItem.link);
+        context.push(menuItem.link);
       },
     );
   }
