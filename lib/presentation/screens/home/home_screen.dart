@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:widgets_app/config/theme/app_theme.dart';
 
 import '../../../config/menu/menu_items.dart';
 
@@ -49,10 +48,17 @@ class _CustomListTile extends StatelessWidget {
       ),
       title: Text(menuItem.title),
       subtitle: Text(menuItem.subTitle),
-      trailing: Icon(Icons.arrow_forward_ios_rounded, color: colors.primary,),
+      trailing: Icon(
+        Icons.arrow_forward_ios_rounded,
+        color: colors.primary,
+      ),
       onTap: () {
-        // TODO: Navegar a otras pantallas
-        // Navigator.pushNamed(context, menuItem.link);
+        // Navigator.of(context).push(
+        //   MaterialPageRoute(
+        //     builder: (context) => const ButtonsScreen(),
+        //   ),
+        // );
+        Navigator.pushNamed(context, menuItem.link);
       },
     );
   }
