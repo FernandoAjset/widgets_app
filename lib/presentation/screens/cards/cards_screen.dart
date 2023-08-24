@@ -20,7 +20,7 @@ class CardsScreen extends StatelessWidget {
         appBar: AppBar(
           title: const Text('Cards Screen'),
         ),
-        body: _CardsView());
+        body: const _CardsView());
   }
 }
 
@@ -152,18 +152,17 @@ class _CardType4 extends StatelessWidget {
           'https://picsum.photos/id/${elevation.toInt()}/600/350',
           height: 350,
           fit: BoxFit.cover,
-          ),     
+        ),
         Align(
             alignment: Alignment.topRight,
             child: Container(
               decoration: const BoxDecoration(
-                color: Colors.white,
-                borderRadius:  BorderRadius.only(
-                  bottomLeft: Radius.circular(20)
-                )
-              ),
+                  color: Colors.white,
+                  borderRadius:
+                      BorderRadius.only(bottomLeft: Radius.circular(20))),
               child: IconButton(
-                  onPressed: () {}, icon: const Icon(Icons.image_search_rounded)),
+                  onPressed: () {},
+                  icon: const Icon(Icons.image_search_rounded)),
             ))
       ]),
     );
