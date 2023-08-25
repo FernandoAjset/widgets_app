@@ -54,4 +54,14 @@ const appMenuItems = <MenuItem>[
       subTitle: 'Listas infinitas y pull to refresh',
       link: '/infinitescroll',
       icon: Icons.list_alt_outlined),
+  MenuItem(
+      title: 'Counter con Riverpod Stat',
+      subTitle: 'Counter usando Riverpod Stat',
+      link: '/counter-riverpod',
+      icon: Icons.add_box_outlined),
+  MenuItem(
+      title: 'Cambiar tema con Riverpod Stat',
+      subTitle: 'Cambiar tema de la aplicación',
+      link: '/theme-changer',
+      icon: Icons.color_lens_outlined),
 ];
