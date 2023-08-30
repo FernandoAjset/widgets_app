@@ -59,7 +59,7 @@ En este proyecto, abordamos los siguientes temas:
 
 A continuación, se muestran algunas capturas de pantalla de la aplicación:
 
-![Pantalla inicial de la aplicación](https://resourcesdev.blob.core.windows.net/resources-web/proyectos/widget1.jpg)
+![Pantalla inicial de la aplicación](https://resourcesdev.blob.core.windows.net/resources-web/proyectos/widget.jpg)
 
 ![Pantalla inicial de la aplicación](https://resourcesdev.blob.core.windows.net/resources-web/proyectos/widget2.jpg)
 
