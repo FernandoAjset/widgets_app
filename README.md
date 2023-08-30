@@ -61,6 +61,15 @@ A continuación, se muestran algunas capturas de pantalla de la aplicación:
 
 ![Pantalla inicial de la aplicación](https://resourcesdev.blob.core.windows.net/resources-web/proyectos/widget1.jpg)
 
+![Pantalla inicial de la aplicación](https://resourcesdev.blob.core.windows.net/resources-web/proyectos/widget2.jpg)
+
+![Pantalla inicial de la aplicación](https://resourcesdev.blob.core.windows.net/resources-web/proyectos/widget3.jpg)
+
+![Pantalla inicial de la aplicación](https://resourcesdev.blob.core.windows.net/resources-web/proyectos/widget4.jpg)
+
+![Pantalla inicial de la aplicación](https://resourcesdev.blob.core.windows.net/resources-web/proyectos/widget5.jpg)
+
+
 ¡Siéntete libre de explorar el código y interactuar con los diferentes widgets y funcionalidades que se demuestran en esta aplicación!
 
 ## Contacto
